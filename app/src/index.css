@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Caveat:wght@600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #eaf1ed;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+.desktop-app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #eaf1ed;
+  overflow: hidden;
+  padding: 16px;
+  gap: 16px;
+}
+
+/* --- Teal Pill Rail from Reference --- */
+.nav-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 76px;
+  flex-shrink: 0;
+}
+
+.curved-pill-rail {
+  width: 66px;
+  height: 100%;
+  background-color: #0d9488;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0 20px;
+  box-shadow: 0 16px 36px rgba(13, 148, 136, 0.22);
+}
+
+.brand-gem {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.nav-slot {
+  width: 50px;
+  height: 50px;
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.rail-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: #ccfbf1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.rail-btn:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.12);
+  transform: scale(1.06);
+}
+
+.rail-btn.active {
+  background: #ffffff;
+  color: #0f766e !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.badge-tag {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: #f43f5e;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 1px 5px;
+  border-radius: 9999px;
+  border: 2px solid #0d9488;
+}
+
+.rail-divider {
+  width: 22px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px 0;
+}
+
+/* --- Clean Off-White Clinical Viewport --- */
+.light-viewport {
+  flex: 1;
+  background: #f7faf8;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.viewport-header {
+  padding: 24px 36px;
+  border-bottom: 1px solid #e6eeea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.viewport-body {
+  flex: 1;
+  padding: 28px 36px 40px;
+  overflow-y: auto;
+}
+
+.viewport-body::-webkit-scrollbar {
+  width: 6px;
+}
+.viewport-body::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+/* Clean Cards */
+.clean-card {
+  background: #ffffff;
+  border: 1px solid #e7efe9;
+  border-radius: 20px;
+  padding: 22px 26px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+  transition: all 0.2s ease;
+}
+
+.clean-card:hover {
+  border-color: #0d9488;
+  box-shadow: 0 6px 18px rgba(13, 148, 136, 0.08);
+}
+
+/* Sticky Corkboard */
+.sticky-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.sticky-note {
+  min-height: 200px;
+  border-radius: 6px;
+  padding: 20px 18px 14px;
+  position: relative;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sticky-tape {
+  width: 64px;
+  height: 16px;
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.sticky-text {
+  font-family: 'Caveat', cursive, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.35;
+  color: #1e293b;
+}

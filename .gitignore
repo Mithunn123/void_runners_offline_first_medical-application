@@ -1,0 +1,28 @@
+﻿# Dependencies
+node_modules/
+target/
+
+# Build outputs
+dist/
+build/
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Exclude slides and presentation files
+*.pdf
+*.pptx
+*.jpeg
+*.jpg
+*.png
+!app/src/assets/hero.png
+!app/src/assets/react.svg
+!app/src/assets/vite.svg
+!app/public/favicon.svg
+!app/public/icons.svg
+
+# Environment variables
+.env
+.env.local
