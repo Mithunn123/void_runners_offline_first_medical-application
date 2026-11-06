@@ -40,12 +40,13 @@ export const initialVisits: Visit[] = [
     id: 'v1',
     date: 'Oct 15, 2026',
     facility: 'Green Valley Clinic',
-    provider: 'Dr. Patel (GP)',
-    notes: 'Initial consultation for type 2 diabetes management.',
+    provider: 'Dr. K. Patel (GP)',
+    notes: 'Initial consultation for type 2 diabetes and dyslipidemia management.',
     scanUrl: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400',
     medications: [
-      { id: 'm1', name: 'Metformin', dosage: '500mg', frequency: 'Twice daily', prescriber: 'Dr. Patel', date: 'Oct 15, 2026' },
-      { id: 'm2', name: 'Lisinopril', dosage: '10mg', frequency: 'Once daily', prescriber: 'Dr. Patel', date: 'Oct 15, 2026' }
+      { id: 'm1', name: 'Metformin', dosage: '500mg', frequency: 'Twice daily', prescriber: 'Dr. K. Patel', date: 'Oct 15, 2026' },
+      { id: 'm2', name: 'Lisinopril', dosage: '10mg', frequency: 'Once daily', prescriber: 'Dr. K. Patel', date: 'Oct 15, 2026' },
+      { id: 'm0', name: 'Atorvastatin', dosage: '20mg', frequency: 'Once daily at bedtime', prescriber: 'Dr. K. Patel', date: 'Oct 15, 2026' }
     ]
   },
   {
