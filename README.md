@@ -1,9 +1,9 @@
-# MedContinuity — Offline-First Clinical Handover & Medication Continuity
+# PharmaDrop — Offline-First Clinical Handover & Medication Continuity
 
 > **Hackathon Track:** Offline-First Healthcare / Clinical Medication Safety  
 > **Team:** Void Runners (PS4-10)
 
-MedContinuity is an enterprise-grade, zero-cloud, offline-first clinical reconciliation and prescription exchange platform. Designed for environments with intermittent or non-existent connectivity, it enables secure, peer-to-peer clinical data exchange between healthcare providers and patients entirely using **optical QR codes** and local device cameras.
+PharmaDrop is an enterprise-grade, zero-cloud, offline-first clinical reconciliation and prescription exchange platform. Designed for environments with intermittent or non-existent connectivity, it enables secure, peer-to-peer clinical data exchange between healthcare providers and patients entirely using **optical QR codes** and local device cameras.
 
 ---
 
@@ -16,7 +16,7 @@ When patients move between care settings (clinics, hospitals, specialty consulta
 
 ## Our Solution
 
-MedContinuity establishes an offline bridge between clinicians and patients:
+PharmaDrop establishes an offline bridge between clinicians and patients:
 1. **Live Optical Exchange:** Real camera scanning (`html5-qrcode` over HTTPS) enables mobile phones and laptops to exchange encrypted clinical payloads without a central server or Wi-Fi.
 2. **Clinical Escalation Safety Gate:** When a doctor prescribes a medication previously taken by the patient at a different dose or frequency, the platform intercepts submission and triggers an explicit clinical escalation review modal before issuing the prescription.
 3. **Interactive Medication Activity Heatmap:** A 52-week calendar heat grid gives patients and providers instant visibility into their historical consultation and prescription timeline.

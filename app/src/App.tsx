@@ -661,7 +661,7 @@ export default function App() {
           </div>
 
           <h1 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#0f172a', letterSpacing: '-0.02em', margin: '0 0 4px' }}>
-            MedContinuity
+            PharmaDrop
           </h1>
           <p style={{ fontSize: '0.85rem', color: '#64748b', margin: '0 0 24px' }}>
             Offline Medication Handover
@@ -722,7 +722,7 @@ export default function App() {
       {/* Navigation Rail */}
       <aside className="nav-column">
         <div className="curved-pill-rail">
-          <div className="brand-gem" title="MedContinuity Clinical Safety">
+          <div className="brand-gem" title="PharmaDrop Clinical Safety">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 2v20M2 12h20"/>
             </svg>
@@ -916,7 +916,7 @@ export default function App() {
         <header className="viewport-header">
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <h1 style={{ fontSize: '1.15rem', fontWeight: 700, color: '#0f172a', letterSpacing: '-0.01em', margin: 0 }}>
-              MedContinuity
+              PharmaDrop
             </h1>
 
             {currentRole === 'doctor' ? (
